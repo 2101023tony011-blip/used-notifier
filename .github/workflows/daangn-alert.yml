@@ -11,7 +11,7 @@ name: 당근마켓 신규 매물 알림
 #    매물별 '마지막으로 알린 날짜'를 기록).
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/10 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
